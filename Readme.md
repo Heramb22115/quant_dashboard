@@ -24,7 +24,7 @@ This project is a comprehensive quantitative finance dashboard built with a Pyth
 ## **Project Structure**
 
 .  
-├── app.py              \# The FastAPI backend application  
+├── main.py              \# The FastAPI backend application  
 ├── frontend.py         \# The Streamlit frontend application  
 └── requirements.txt    \# Project dependencies
 
