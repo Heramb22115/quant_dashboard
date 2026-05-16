@@ -3,15 +3,15 @@ import requests
 import pandas as pd
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import os
 
-# --- Configuration ---
 st.set_page_config(
     page_title="Quant Dashboard",
     page_icon="💹",
     layout="wide"
 )
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
 
 # --- Helper Functions to Fetch Data from API ---
 
